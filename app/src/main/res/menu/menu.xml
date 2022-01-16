@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_seccion_1"
+            android:icon="@drawable/ic_mail"
+            android:title="Email" />
+        <item
+            android:id="@+id/menu_seccion_2"
+            android:icon="@drawable/ic_contact"
+            android:title="Contactos" />
+        <item
+            android:id="@+id/menu_seccion_3"
+            android:icon="@drawable/ic_phone"
+            android:title="Telefono" />
+    </group>
+
+    <item
+        android:id="@+id/navigation_subheader"
+        android:title="Otras Opciones">
+        <menu>
+            <item
+                android:id="@+id/menu_opcion_1"
+                android:icon="@drawable/ic_chat"
+                android:title="Mensaje" />
+            <item
+                android:id="@+id/menu_opcion_2"
+                android:icon="@drawable/ic_share"
+                android:title="Compartir" />
+        </menu>
+    </item>
+</menu>
