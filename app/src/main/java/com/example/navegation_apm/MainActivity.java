@@ -39,7 +39,6 @@ public class MainActivity extends AppCompatActivity {
     private String rol;
     private int resulId;
     String url = "https://my-json-server.typicode.com/dennissezambrano2017/demo_json/db";
-    String url1 = "https://my-json-server.typicode.com/dennissezambrano2017/demo_json/Perfiles/";
     public static final String EXTRA_MESSAGE = "com.example.myfirstapp.MESSAGE";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -81,6 +80,7 @@ public class MainActivity extends AppCompatActivity {
                                 Bundle name = new Bundle();
                                 name.putString("Datos",usuario);
                                 name.putString("Imagen",imag);
+                                name.putString("Rol",rol);
                                 intent.putExtras(name);
                                 startActivity(intent);
                             } else {
