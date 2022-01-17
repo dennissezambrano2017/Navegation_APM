@@ -9,10 +9,10 @@
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="#00ACC1"
-        android:src="@mipmap/ic_launcher_round" />
+        android:id="@+id/image_user"
+        android:layout_width="73dp"
+        android:layout_height="64dp"
+        android:src="@mipmap/ic_use" />
 
     <TextView
         android:id="@+id/txtName"
@@ -27,7 +27,7 @@
         android:id="@+id/txtNameUser"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingTop="8dp"
+        android:paddingTop="6dp"
         android:text="Paola Zambrano"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
